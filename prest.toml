@@ -1,1 +1,15 @@
 
+migrations = "./migrations"
+
+[http]
+port = 4000
+
+[jwt]
+key = "secret"
+
+[pg]
+host = "127.0.0.1"
+user = "postgres"
+pass = "mypass"
+port = 5432
+database = "prest"
